@@ -4119,7 +4119,7 @@ hr {
   overflow: hidden
 }
 
-.testimonial-area::after {
+/* .testimonial-area::after {
   position: absolute;
   content: "";
   background-image: url(../img/gallery/arrow_testimonial.png);
@@ -4131,7 +4131,7 @@ hr {
   background-size: cover;
   margin-left: 0px;
   animation: slide1 1s ease-in-out infinite
-}
+} */
 
 @keyframes slide1 {
 
@@ -4341,10 +4341,10 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 0px;
-  animation: slide1 1s ease-in-out infinite
+  /* animation: slide1 1s ease-in-out infinite */
 }
 
-@keyframes slide1 {
+/* @keyframes slide1 {
 
   0%,
   100% {
@@ -4358,7 +4358,7 @@ hr {
     -ms-transform: translate(5px, 0);
     -o-transform: translate(5px, 0)
   }
-}
+} */
 
 .footer-area .footer-logo {
   margin-bottom: 30px
