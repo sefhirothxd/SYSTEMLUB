@@ -2245,7 +2245,7 @@ hr {
   font-size: 140px;
   font-weight: 800;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px #f6f7f8;
+  -webkit-text-stroke: 1px #acacac;
   -webkit-text-fill-color: transparent;
   margin: 0;
   line-height: 1;
@@ -2352,13 +2352,14 @@ hr {
 }
 
 .section-tittle.section-tittle3 span.back-text {
-  transform: translateY(-114%)
+  transform: translateY(-140%);
+  font-size: 100px;
 }
 
 @media (max-width: 575px) {
   .section-tittle.section-tittle3 span.back-text {
-    font-size: 56px;
-    transform: translateY(-136%)
+    font-size: 50px;
+    transform: translateY(-150%)
   }
 }
 
