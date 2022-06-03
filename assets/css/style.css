@@ -3847,7 +3847,9 @@ hr {
 .project-area .project-caption .single-project .project-img img,
 .about-area .project-caption .single-project .project-img img,
 .contact-section .project-caption .single-project .project-img img {
-  width: 100%
+  width: 100%;
+  height: 277px;
+  object-fit: cover;
 }
 
 .project-area .project-caption .single-project .project-cap,
