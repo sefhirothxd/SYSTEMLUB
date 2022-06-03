@@ -539,7 +539,7 @@ hr {
   height: 50px;
   width: 50px;
   right: 31px;
-  bottom: 40px;
+  bottom: 100px;
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -3336,6 +3336,7 @@ hr {
 .support-company-area .support-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center !important;
   flex-wrap: wrap
 }
 
