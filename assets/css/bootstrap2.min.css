@@ -7222,7 +7222,7 @@ a.close.disabled {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 15;
+  z-index: 1;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -7265,7 +7265,7 @@ a.close.disabled {
   position: absolute;
   left: 15%;
   top: 30%;
-  z-index: 10;
+  z-index: 1;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ff5f13;

@@ -2801,6 +2801,15 @@ hr {
   }
 }
 
+.maximo {
+  max-width: 2400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .slicknav_menu .slicknav_icon-bar {
   background-color: #ff5f13 !important
 }
