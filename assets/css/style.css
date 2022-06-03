@@ -2942,6 +2942,19 @@ hr {
   .text-principal {
     font-size: 100px;
   }
+
+  .carousel-inner {
+    height: 500px;
+  }
+
+  .carousel-item {
+    height: 100%;
+  }
+
+  .img-banner {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2952,6 +2965,19 @@ hr {
   .text-principal {
     font-size: 80px;
   }
+
+  .carousel-inner {
+    height: 500px;
+  }
+
+  .carousel-item {
+    height: 100%;
+  }
+
+  .img-banner {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2960,7 +2986,26 @@ hr {
   }
 
   .text-principal {
-    font-size: 50px;
+    font-size: 60px;
+  }
+
+  .carousel-caption {
+    top: 40%;
+  }
+
+  .carousel-inner {
+    height: 500px;
+
+  }
+
+  .carousel-item {
+    height: 100%;
+  }
+
+
+  .img-banner {
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -2970,7 +3015,7 @@ hr {
   }
 
   .carousel-inner {
-    height: 400px;
+    height: 500px;
   }
 
   .carousel-item {
@@ -2983,8 +3028,13 @@ hr {
   }
 
   .text-principal {
-    font-size: 30px;
+    font-size: 40px;
   }
+
+  .carousel-caption {
+    top: 40%;
+  }
+
 }
 
 .slider-area .hero__caption .stock-text {

@@ -7076,7 +7076,9 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden
+  overflow: hidden;
+  max-height: 900px;
+  min-height: 500px;
 }
 
 .carousel-inner::after {
@@ -7262,7 +7264,7 @@ a.close.disabled {
 .carousel-caption {
   position: absolute;
   left: 15%;
-  top: 40%;
+  top: 30%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
