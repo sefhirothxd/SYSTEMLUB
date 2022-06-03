@@ -150,7 +150,6 @@ h6 {
 p {
   font-family: "Barlow", sans-serif;
   color: "Barlow", sans-serif;
-  font-size: 16px;
   line-height: 24px;
   margin-bottom: 15px;
   font-weight: normal
@@ -557,6 +556,15 @@ hr {
 
 #scrollUp:hover {
   color: #fff
+}
+
+.text-principal {
+  font-size: 140px;
+  font-weight: 900;
+  color: #ff5f13;
+  font-family: 'Barlow', sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .sticky-bar {
@@ -1954,8 +1962,8 @@ hr {
 }
 
 .preloader .preloader-circle {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   position: relative;
   border-style: solid;
   border-width: 1px;
@@ -1998,7 +2006,7 @@ hr {
 }
 
 .preloader .preloader-img img {
-  max-width: 55px
+  max-width: 100px
 }
 
 .preloader .pere-text strong {
@@ -2513,6 +2521,10 @@ hr {
   padding: 13px 100px
 }
 
+.big-logo img {
+  width: 120px;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .header-area .header-top {
     padding: 13px 80px
@@ -2926,11 +2938,19 @@ hr {
   .slider-area .hero__caption h1 {
     font-size: 135px
   }
+
+  .text-principal {
+    font-size: 100px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .hero__caption h1 {
     font-size: 110px
+  }
+
+  .text-principal {
+    font-size: 80px;
   }
 }
 
@@ -2938,11 +2958,32 @@ hr {
   .slider-area .hero__caption h1 {
     font-size: 72px
   }
+
+  .text-principal {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 575px) {
   .slider-area .hero__caption h1 {
     font-size: 42px
+  }
+
+  .carousel-inner {
+    height: 400px;
+  }
+
+  .carousel-item {
+    height: 100%;
+  }
+
+  .img-banner {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .text-principal {
+    font-size: 30px;
   }
 }
 
@@ -3016,16 +3057,16 @@ hr {
 }
 
 .slider-area .hero__caption .stock-text h2:nth-child(1) {
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-  -webkit-text-fill-color: transparent
+  color: #ff5f13;
+  /* -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent */
 }
 
-.slider-area .hero__caption .stock-text h2:nth-child(2) {
+/* .slider-area .hero__caption .stock-text h2:nth-child(2) {
   color: #ff5f13;
   -webkit-animation: animate 4s ease-in-out infinite;
   animation: animate 4s ease-in-out infinite
-}
+} */
 
 @keyframes animate {
 
