@@ -4714,8 +4714,24 @@ ul>li {
   font-weight: 700
 }
 
+.single-services {
+  height: 100%;
+}
+
+.details-img {
+  height: 100%;
+}
+
 .single-services .details-img img {
-  width: 100%
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .details-caption {
+    margin-bottom: 30px;
+  }
 }
 
 .single-services .details-caption h3 {
