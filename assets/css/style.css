@@ -2810,6 +2810,29 @@ hr {
   align-items: center;
 }
 
+ul>li {
+  margin-left: 20px;
+  list-style: disc;
+  padding-left: 10px;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.img-probando {
+  height: 200px;
+  width: 100%;
+  max-width: 450px;
+  min-width: 200px;
+  min-height: 150px;
+  object-fit: cover;
+}
+
 .slicknav_menu .slicknav_icon-bar {
   background-color: #ff5f13 !important
 }
@@ -2846,9 +2869,29 @@ hr {
   background-size: cover
 }
 
+@media (max-width: 768px) {
+  .item-probando {
+    margin-bottom: 20px;
+  }
+
+  .title-contactenos-btn {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .title-contactenos-btn {
+    font-size: 20px !important;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-height {
     min-height: 620px
+  }
+
+  .item-probando {
+    margin-bottom: 20px;
   }
 }
 
