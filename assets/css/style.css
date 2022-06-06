@@ -346,6 +346,12 @@ hr {
   .mb-90 {
     margin-bottom: 30px
   }
+
+  .services-area1 .single-service-cap .service-cap h4 a {
+    color: #0e132a;
+    font-size: 28px;
+    font-weight: 700
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2646,7 +2652,7 @@ hr {
 .header-area .header-top .header-info-right .header-social li a {
   color: #fff;
   font-size: 14px;
-  padding-left: 25px
+  /* padding-left: 25px */
 }
 
 .header-area .header-top .header-info-right .header-social li a:hover {
@@ -3375,7 +3381,7 @@ ul>li {
 }
 
 .services-area1 .single-service-cap .service-cap {
-  padding: 20px 30px 20px 30px;
+  padding: 20px 20px 20px 20px;
   background: #fcfdff
 }
 
@@ -3385,8 +3391,16 @@ ul>li {
 
 .services-area1 .single-service-cap .service-cap h4 a {
   color: #0e132a;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700
+}
+
+@media (max-width: 767px) {
+  .services-area1 .single-service-cap .service-cap h4 a {
+    color: #0e132a;
+    font-size: 28px;
+    font-weight: 700
+  }
 }
 
 @media (max-width: 575px) {
@@ -4025,7 +4039,7 @@ ul>li {
 .contact-section .project-caption .single-project .project-cap h4 {
   margin: 0;
   line-height: 1.2;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700
 }
 
