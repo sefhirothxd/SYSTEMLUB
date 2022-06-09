@@ -27,12 +27,8 @@
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<link rel="stylesheet" href="assets/css/responsive.css" />
 		<link rel="stylesheet" href="assets/css/whatapp.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"
-		/>
 	</head>
-	<body>
+	<body class="body">
 		<!-- Preloader Start -->
 		<div id="preloader-active">
 			<div class="preloader d-flex align-items-center justify-content-center">
@@ -208,9 +204,9 @@
 			<!-- slider Area End-->
 			<!-- Services Details Start -->
 			<div class="services-details-area">
-				<div class="container mt-80">
+				<div class="mt-80">
 					<h1 class="text-center mb-20">Edificio Metálico URP</h1>
-					<div class="row mb-80">
+					<div class="row mb-80 container m-auto">
 						<div class="col-12 col-xl-6">
 							<div class="details-caption">
 								<p class="mb-20">
@@ -251,8 +247,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="mt-20 mb-20 backContactano">
-						<h3 class="text-center title-contactenos-btn mb-30">
+					<div class="mt-50 mb-20 backContactano">
+						<h3 class="text-center title-contactenos-btn mb-30 container">
 							Podemos ayudarte a ahorrarte tiempo y dinero al lograr que sus
 							instalacion y su equipamiento vuelva a funcionar lo más pronto
 							posible.
@@ -269,66 +265,51 @@
 							<div class="intro details-caption">
 								<h3 class="text-center">Galeria</h3>
 							</div>
-							<div class="row photos justify-content-center">
-								<div class="col-sm-6 col-md-4 col-lg-3 item item-probando">
-									<a
-										href="./assets/img/esm/ESTRUCTURA2.jfif"
-										data-lightbox="photos"
-										><img
-											class="img-fluid img-probando"
-											src="./assets/img/esm/ESTRUCTURA2.jfif"
-									/></a>
-								</div>
-								<div class="col-sm-6 col-md-4 col-lg-3 item item-probando">
-									<a
-										href="./assets/img/esm/ESTRUCTURA3.jpg"
-										data-lightbox="photos"
-										><img
-											class="img-fluid img-probando"
+							<div class="container">
+								<div class="conteiner-galery">
+									<a data-fslightbox href="./assets/img/esm/ESTRUCTURA2.jpg">
+										<img
+											class="img-galery"
+											src="./assets/img/esm/ESTRUCTURA2.jpg"
+										/>
+									</a>
+									<a data-fslightbox href="./assets/img/esm/ESTRUCTURA3.jpg">
+										<img
+											class="img-galery"
 											src="./assets/img/esm/ESTRUCTURA3.jpg"
-									/></a>
-								</div>
-								<div class="col-sm-6 col-md-4 col-lg-3 item item-probando">
-									<a
-										href="./assets/img/esm/ESTRUCTURA4.jpg"
-										data-lightbox="photos"
-										><img
-											class="img-fluid img-probando"
+										/>
+									</a>
+									<a data-fslightbox href="./assets/img/esm/ESTRUCTURA4.jpg">
+										<img
+											class="img-galery"
 											src="./assets/img/esm/ESTRUCTURA4.jpg"
-									/></a>
-								</div>
-								<div class="col-sm-6 col-md-4 col-lg-3 item item-probando">
-									<a
-										href="./assets/img/esm/ESTRUCTURA5.jpg"
-										data-lightbox="photos"
-										><img
-											class="img-fluid img-probando"
+										/>
+									</a>
+									<a data-fslightbox href="./assets/img/esm/ESTRUCTURA5.jpg">
+										<img
+											class="img-galery"
 											src="./assets/img/esm/ESTRUCTURA5.jpg"
-									/></a>
-								</div>
-								<div class="col-sm-6 col-md-4 col-lg-3 item item-probando">
-									<a
-										href="./assets/img/esm/ESTRUCTURA6.jpg"
-										data-lightbox="photos"
-										><img
-											class="img-fluid img-probando"
+										/>
+									</a>
+									<a data-fslightbox href="./assets/img/esm/ESTRUCTURA6.jpg">
+										<img
+											class="img-galery"
 											src="./assets/img/esm/ESTRUCTURA6.jpg"
-									/></a>
-								</div>
-								<div class="col-sm-6 col-md-4 col-lg-3 item item-probando">
-									<a
-										href="./assets/img/esm/ESTRUCTURA7.jpg"
-										data-lightbox="photos"
-										><img
-											class="img-fluid img-probando"
+										/>
+									</a>
+									<a data-fslightbox href="./assets/img/esm/ESTRUCTURA7.jpg">
+										<img
+											class="img-galery"
 											src="./assets/img/esm/ESTRUCTURA7.jpg"
-									/></a>
+										/>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<!-- Services Details End -->
 		</main>
 		<footer>
@@ -456,6 +437,6 @@
 		<!-- Jquery Plugins, main Jquery -->
 		<script src="./assets/js/plugins.js"></script>
 		<script src="./assets/js/main.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+		<script src="./assets/js/fslightbox.js"></script>
 	</body>
 </html>

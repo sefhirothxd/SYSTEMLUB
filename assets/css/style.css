@@ -2882,13 +2882,30 @@ ul>li {
 
 .backContactano {
   background-color: #00235B;
-  padding: 20px 0;
+  padding: 100px 0;
   color: #fff;
 }
 
 .title-contactenos-btn {
   color: white;
   padding: 0 10px;
+}
+
+.img-galery {
+  height: 200px;
+  width: 270px;
+  min-width: 200px;
+  min-height: 150px;
+  object-fit: cover;
+}
+
+.conteiner-galery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
 }
 
 @media (max-width: 768px) {
