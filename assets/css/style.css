@@ -2876,6 +2876,21 @@ ul>li {
   background-size: cover
 }
 
+.item-probando {
+  margin-bottom: 20px;
+}
+
+.backContactano {
+  background-color: #00235B;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.title-contactenos-btn {
+  color: white;
+  padding: 0 10px;
+}
+
 @media (max-width: 768px) {
   .item-probando {
     margin-bottom: 20px;
