@@ -2604,7 +2604,7 @@ hr {
 }
 
 .header-area {
-  background: rgba(25, 26, 51, 0.9)
+  background: rgba(25, 26, 51, 1)
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2761,13 +2761,13 @@ hr {
   top: 100%
 }
 
-.header-transparent {
+/* .header-transparent {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   z-index: 9
-}
+} */
 
 .header-area .header-top .header-info-right .header-social a i {
   -webkit-transition: all .4s ease-out 0s;
