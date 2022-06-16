@@ -2604,7 +2604,8 @@ hr {
 }
 
 .header-area {
-  background: rgba(25, 26, 51, 1)
+  background: rgba(25, 26, 51, 1);
+  border-bottom: 1px solid #3e4160;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
