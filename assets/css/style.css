@@ -349,7 +349,7 @@ hr {
 
   .services-area1 .single-service-cap .service-cap h4 a {
     color: #0e132a;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700
   }
 }
@@ -1961,9 +1961,9 @@ hr {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  -webkit-transition: .6s;
-  -o-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
   margin: 0 auto
 }
 
@@ -2528,7 +2528,7 @@ hr {
 }
 
 .big-logo img {
-  width: 120px;
+  width: 220px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -2604,7 +2604,7 @@ hr {
 }
 
 .header-area {
-  background: rgba(25, 26, 51, 1);
+  background: #070b11;
   border-bottom: 1px solid #3e4160;
 }
 
@@ -2740,13 +2740,15 @@ hr {
   display: none
 }
 
+
+
 @media (max-width: 575px) {
   .main-header .logo .small-logo {
     display: unset
   }
 
   .small-logo img {
-    width: 100px;
+    width: 120px;
   }
 }
 
@@ -2792,7 +2794,7 @@ hr {
 }
 
 .header-sticky.sticky-bar.sticky {
-  background: #191a33
+  background: #070b11
 }
 
 .header-sticky ul li a {
@@ -2846,7 +2848,7 @@ ul>li {
 }
 
 .slicknav_nav {
-  margin-top: 0px
+  margin-top: -11px
 }
 
 .header-area .slicknav_btn {
@@ -2860,7 +2862,7 @@ ul>li {
 
 .slicknav_menu {
   background: transparent;
-  margin-top: 4px !important
+  margin-top: 14px !important
 }
 
 .mobile_menu {
@@ -3416,7 +3418,10 @@ ul>li {
   -moz-transition: all .5s ease-out 0s;
   -ms-transition: all .5s ease-out 0s;
   -o-transition: all .5s ease-out 0s;
-  transition: all .5s ease-out 0s
+  transition: all .5s ease-out 0s;
+  object-fit: cover;
+  height: 150px;
+  
 }
 
 .services-area1 .single-service-cap .service-cap {
@@ -3425,12 +3430,14 @@ ul>li {
 }
 
 .services-area1 .single-service-cap .service-cap h4 {
-  margin-bottom: 35px
+  margin-bottom: 35px;
+  height: 50px;
+  width: 100%;
 }
 
 .services-area1 .single-service-cap .service-cap h4 a {
   color: #0e132a;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700
 }
 
@@ -6060,7 +6067,7 @@ ul>li {
 }
 
 .form-contact .form-control {
-  border: 1px solid #e5e6e9;
+  border: 1px solid #000;
   border-radius: 0px;
   height: 48px;
   padding-left: 18px;
@@ -6074,8 +6081,8 @@ ul>li {
 }
 
 .form-contact .form-control::placeholder {
-  font-weight: 300;
-  color: #999999
+  font-weight: 400;
+  color: #000
 }
 
 .form-contact textarea {
